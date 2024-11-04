@@ -1,0 +1,46 @@
+
+.navbar-blur {
+    backdrop-filter: blur(10px); /* Adjust the blur level */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+#heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px; /* Keep padding for heading */
+}
+
+.nav-link {
+    color: #000; /* Link color */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Hover color */
+}
+
+
+/* Column Styling */
+#One, #Two {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+    margin-bottom: 20px; /* Space below each sidebar */
+    border-radius: 5px;
+}
+
+#One h1, #Two h1, #middle h1, #middle h2, #middle h3 {
+    font-size: 24px; /* Heading font size */
+    font-weight: bold;
+    margin-bottom: 15px; /* Space below headers */
+}
+
+#middle {
+    max-width: 70%; /* Set width for middle content */
+    line-height: 2; /* Line height for readability */
+    margin: 0 auto; /* Centering the middle section */
+}
+
+#One, #Two {
+    text-align: center; /* Center text in sidebars */
+}

@@ -1,0 +1,33 @@
+/* Reset padding and margin */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to bottom right, #000428, #004e92); /* Gradient for header */
+    color: white;
+}
+
+
+.navbar {
+    background-color: antiquewhite; /* Navbar background color */
+    margin-bottom: 0; /* Remove bottom margin from navbar */
+}
+
+
+main {
+    background-image: url('images/img 5.jpg'); /* Background image for main */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 20px; /* Add padding for main content */
+    margin-top: 0; /* Remove any margin at the top of main */
+}
+
+footer {
+    background: linear-gradient(to top left, #000428, #004e92); /* Gradient for footer */
+    color: white;
+}
